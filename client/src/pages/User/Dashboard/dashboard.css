@@ -1,0 +1,83 @@
+.user-dashboard {
+  display: flex;
+}
+.main {
+  display: flex;
+}
+.imagee img {
+  width: 100%;
+  opacity: 0.8;
+}
+.detailss {
+  text-align: center;
+}
+.detailss img {
+  width: 50%;
+}
+.detailss h1 {
+  color: rgba(0, 122, 255, 255);
+  font-weight: 400;
+}
+.featuress h2 {
+  color: black;
+  margin-top: 20px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: 500;
+}
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: white;
+  margin: 10px;
+  text-align: justify;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.box-1 h3 {
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.box-1 p {
+  opacity: 0.9;
+}
+.box-1 i {
+  text-align: center;
+  font-size: 30px;
+}
+.boxez {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-1 .fa-calendar-days {
+  color: green;
+  opacity: 0.8;
+}
+.box-1 .fa-person {
+  color: darkblue;
+  opacity: 0.8;
+}
+.box-1 .fa-heart {
+  color: rgb(82, 193, 230);
+  opacity: 0.8;
+}
+.box-1 .fa-mobile {
+  color: orangered;
+  opacity: 0.8;
+}
+.bottomz {
+  height: 50px;
+  background-color: rgba(0, 122, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.linkz p {
+  cursor: pointer;
+  transition: 0.5s;
+}

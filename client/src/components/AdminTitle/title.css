@@ -1,0 +1,9 @@
+.admin-title {
+  margin: 40px;
+  border-bottom: 1px solid #f6f6f6;
+  padding-bottom: 10px;
+}
+.admin-title h1 {
+  font-size: 28px;
+  color: rgba(0, 122, 255, 255);
+}

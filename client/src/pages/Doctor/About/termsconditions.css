@@ -1,0 +1,13 @@
+.terms p {
+  text-align: justify;
+  line-height: 1.8;
+}
+.terms span {
+  font-weight: bold;
+  opacity: 0.9;
+}
+.terms h1 {
+  text-align: center;
+  font-weight: bold;
+  opacity: 0.8;
+}

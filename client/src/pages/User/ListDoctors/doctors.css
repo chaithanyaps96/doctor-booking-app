@@ -1,0 +1,54 @@
+.doctors {
+  margin: 70px auto;
+}
+.doctor-container {
+  gap: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+.doctors-list {
+  width: 300px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.986);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  gap: 10px;
+  font-size: 14px;
+  padding: 10px;
+}
+.doctors-list h1 {
+  color: rgba(0, 122, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+.doctors-list img {
+  width: fit-content;
+  height: 100px;
+  border-radius: 5px;
+}
+.doctors-list p {
+  font-weight: 500;
+}
+.listdocbtn {
+  text-align: center;
+  color: rgba(0, 122, 255, 255);
+  font-weight: 500;
+  border: 1px solid rgba(0, 122, 255, 255);
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+  width: 50%;
+}
+.listdocbtn:hover {
+  background-color: rgba(0, 122, 255, 255);
+  color: white;
+  border: 1px solid rgba(0, 122, 255, 255);
+}

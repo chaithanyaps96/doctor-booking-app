@@ -1,0 +1,21 @@
+h1 {
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.8;
+}
+.faq {
+  padding: 15px;
+}
+.row1 {
+  background-color: rgba(0, 122, 255, 255);
+  height: 40px;
+  color: white;
+}
+.row1 p {
+  padding: 10px;
+}
+
+.row2 p {
+  border: 1px solid rgba(0, 122, 255, 255);
+  padding: 10px;
+}

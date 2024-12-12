@@ -1,0 +1,42 @@
+.user-console {
+  background-color: rgba(0, 122, 255, 255);
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+  border-radius: 10px;
+}
+.user-console img {
+  border: 1px solid rgba(245, 245, 245, 0.973);
+  height: 9vh;
+  width: 4vw;
+  padding: 5px;
+  border-radius: 10px;
+}
+.user-console .creds .admin-name {
+  font-weight: 400;
+  font-size: 2vw;
+  color: white;
+  font-family: 'Arima', system-ui;
+  font-optical-sizing: auto;
+  /* transition: transform 0.3s ease; */
+  animation: bounce 2s infinite;
+}
+/* .admin-name:hover {
+  transform: scale(1.2);
+} */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.user-console .creds .admin-email {
+  font-weight: 300;
+  color: whitesmoke;
+}

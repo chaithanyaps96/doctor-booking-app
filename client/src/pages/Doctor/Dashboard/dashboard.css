@@ -1,0 +1,101 @@
+.doctor-dashboard {
+  display: flex;
+}
+
+.image img {
+  width: 100%;
+  opacity: 0.9;
+}
+.details {
+  background-color: rgba(0, 122, 255, 255);
+  color: white;
+  /* margin-top: 30px; */
+  margin: 30px 20px 20px 20px;
+  border-radius: 10px;
+}
+.details p,
+h1 {
+  padding: 10px;
+}
+.features {
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+.features h4 {
+  background-color: gainsboro;
+  display: inline;
+  padding: 8px;
+  border-radius: 5px;
+}
+.features img {
+  height: 150px;
+  border-radius: 7px;
+}
+.key-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  text-align: justify;
+}
+.key-features p {
+  padding: 10px;
+}
+
+.key-features span {
+  font-weight: bold;
+  font-size: large;
+}
+.services {
+  text-align: center;
+  /* margin: 10px; */
+  background-color: rgb(252, 223, 227);
+  width: 100% !important;
+}
+.services h4 {
+  padding-top: 10px;
+  font-weight: bold;
+  color: rgba(0, 122, 255, 255);
+}
+.services h1 {
+  font-size: 25px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: white;
+  margin: 10px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.box1 h3 {
+  font-weight: bold;
+  opacity: 0.7;
+}
+.box1 p {
+  opacity: 0.9;
+}
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom {
+  height: 50px;
+  background-color: rgba(0, 122, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.links p {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}

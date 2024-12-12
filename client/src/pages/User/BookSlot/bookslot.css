@@ -1,0 +1,74 @@
+.book-slot {
+  margin: 50px;
+}
+.book-slot .top {
+  width: 300px;
+  margin: auto;
+}
+.book-slot .slots {
+  width: 600px;
+  margin: 30px auto;
+  box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
+  padding: 16px;
+  border-radius: 10px;
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.book-slot .slots .slot-card {
+  padding: 5px;
+  box-shadow: 0px 0px 5px 5px rgb(238, 238, 238);
+  height: 100px;
+  white-space: nowrap;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+.slot-card p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
+    Helvetica, sans-serif !important;
+}
+.book-slot .slots .slot-card:active {
+  transform: scale(0.98);
+}
+.book-now {
+  padding: 5px 10px;
+  font-size: 12px;
+  width: fit-content;
+  background-color: orangered;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: white;
+}
+.cancel-slot {
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px;
+  font-size: 12px;
+  width: fit-content;
+  background-color: whitesmoke;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: orangered;
+}
+
+.homebtnn {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 122, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+  font-weight: 400px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.top-full {
+  display: flex;
+  flex-direction: column;
+}

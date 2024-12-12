@@ -1,0 +1,16 @@
+.department-form {
+  display: flex;
+  gap: 20px;
+  margin: 40px;
+}
+.department-form .left {
+  width: 50%;
+}
+.department-form .right {
+  width: 50%;
+}
+.department-add-btn {
+  margin: 50px;
+  display: flex;
+  justify-content: end;
+}

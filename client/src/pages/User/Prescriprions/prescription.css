@@ -1,0 +1,29 @@
+.prescription-card {
+  width: 45%;
+  height: 250px;
+  box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 50px auto;
+}
+.prescription-card span {
+  font-weight: 400;
+}
+.homebtnn {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 122, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+  font-weight: 400px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

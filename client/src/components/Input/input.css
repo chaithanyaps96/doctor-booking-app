@@ -1,0 +1,20 @@
+.input-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.input-item label {
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+.input-item input {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+}
+.input-item img {
+  width: 200px;
+  border-radius: 5px;
+}
